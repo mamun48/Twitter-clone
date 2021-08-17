@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Twitter clone</title>
+  </head>
+  <body>
+    <!-- main page -->
+    <section class="main-page">
+      <!-- left part -->
+      <div class="left">
+        <div class="left-content">
+          <div>
+            <i class="fas fa-search"></i>
+            <h3 class="left-content-heading">Find your interests</h3>
+          </div>
+          <div>
+            <i class="fas fa-user-friends"></i>
+            <h3 class="left-content-heading">
+              Explore what people are talking about
+            </h3>
+          </div>
+          <div>
+            <i class="fas fa-comment"></i>
+            <h3 class="left-content-heading">Join the people</h3>
+          </div>
+        </div>
+      </div>
+      <!-- end of left part -->
+      <!-- right  part -->
+      <div class="right">
+        <form class="right-content-form">
+          <input
+            type="text"
+            class="user-info"
+            placeholder="Phone,email or username"
+          />
+
+          <div>
+            <input type="password" class="password" placeholder="Password" />
+            <label for="">Forgot password?</label>
+          </div>
+          <button type="button" class="btn-top">Log in</button>
+        </form>
+      
+      <div class="middle-content">
+        <i class="fas fa-dove"></i>
+        <h1>Explore what's happening in the world</h1>
+        <h4>Join Twitter today</h4>
+        <button class="sign-up">Sign up</button>
+        <button class="log-in">Log in</button>
+      </div>
+    </div>
     
-</body>
+      <!--end of right part -->
+      <!-- fotter -->
+      <footer class="main-page-footer">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Help center</a></li>
+          <li><a href="#">Teams</a></li>
+          <li><a href="#">Apps</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Status</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Brand</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">&copy;2019 Twitter</a></li>
+        </ul>
+      </footer>
+      <!--end of fotter -->
+    </section>
+    <!--end of main page -->
+  </body>
 </html>
